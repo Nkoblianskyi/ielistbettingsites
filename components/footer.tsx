@@ -16,7 +16,7 @@ export function Footer() {
         {/* Top row: logo + wordmark left, nav right */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 pb-6 border-b border-slate-200">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex h-11 w-11 shrink-0 items-center justify-center">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center">
               <Image src="/favicon.ico" alt="" width={26} height={26} className="h-6 w-6 object-contain opacity-95" />
             </div>
             <SiteWordmark variant="footer" />
