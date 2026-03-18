@@ -11,7 +11,7 @@ export function Header() {
           href="/"
           className="flex items-center justify-center gap-3 transition-opacity hover:opacity-85 md:gap-4"
         >
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-slate-700 shadow-md md:h-11 md:w-11">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center shadow-md md:h-11 md:w-11">
             <Image src="/favicon.ico" alt="" width={32} height={32} className="h-6 w-6 object-contain md:h-7 md:w-7 opacity-95" />
           </div>
           <SiteWordmark variant="header-compact" className="md:hidden" />
