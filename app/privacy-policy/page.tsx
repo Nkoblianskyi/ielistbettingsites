@@ -12,6 +12,7 @@ const sections = [
   { id: "minors", title: "Under 18s", body: "Our site is for adults 18+. We do not knowingly collect data from minors. If you think a child has given us data, contact us and we will delete it." },
   { id: "transfers", title: "International transfers", body: "Some of our providers may be outside the EEA. Where that happens we use approved safeguards (e.g. EU standard contractual clauses) as required by GDPR." },
   { id: "changes", title: "Changes", body: "We may update this policy. The “last reviewed” date at the top will change. Continued use after an update means you accept the new version unless we need fresh consent." },
+  { id: "contact", title: "Contact", body: "For privacy enquiries or data requests, contact us at info@ielistbettingsites.com." },
   { id: "cookies", title: "Cookies", body: "For details see our Cookie policy.", link: "/cookie-policy" },
 ]
 

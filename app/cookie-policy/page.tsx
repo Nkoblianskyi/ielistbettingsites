@@ -8,7 +8,7 @@ const sections = [
   { id: "third", title: "Third parties", body: "Some tools we use (e.g. analytics) may set cookies under their own policies. Check their sites if you want full details." },
   { id: "choices", title: "Your choices", body: "You can block or delete cookies in your browser or use private mode. Blocking all cookies may break some features (e.g. the cookie banner may show every time)." },
   { id: "updates", title: "Updates", body: "We may update this page when our setup changes. The date at the top is the last change. Big changes may be mentioned on the homepage." },
-  { id: "contact", title: "Contact", body: "For questions about cookies, see our Privacy policy.", link: "/privacy-policy" },
+  { id: "contact", title: "Contact", body: "For questions about cookies, contact us at info@ielistbettingsites.com. See also our ", link: "/privacy-policy", linkLabel: "Privacy policy" },
 ]
 
 export default function CookiePolicyPage() {
@@ -47,7 +47,7 @@ export default function CookiePolicyPage() {
             <p className="text-slate-600 mt-2">ielistbettingsites.com</p>
 
             <div className="mt-10 space-y-10">
-              {sections.map(({ id, title, body, link }, i) => (
+              {sections.map(({ id, title, body, link, linkLabel }, i) => (
                 <section key={id} id={id} className="scroll-mt-24">
                   <div className="flex gap-4">
                     <span className="text-2xl font-bold text-slate-400 tabular-nums">{i + 1}.</span>
@@ -56,9 +56,9 @@ export default function CookiePolicyPage() {
                       <p className="mt-2 text-slate-800 leading-relaxed">
                         {link ? (
                           <>
-                            See our{" "}
+                            {body}
                             <Link href={link} className="text-slate-900 font-medium underline hover:text-slate-700">
-                              Privacy policy
+                              {linkLabel ?? "Privacy policy"}
                             </Link>
                             .
                           </>
