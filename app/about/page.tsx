@@ -32,11 +32,11 @@ export default function AboutPage() {
             <span className="text-5xl md:text-6xl font-bold text-slate-300 leading-none">01</span>
             <h2 className="mt-2 text-2xl font-bold text-slate-900">Publisher (Impressum)</h2>
             <address className="mt-4 not-italic text-slate-700 space-y-0.5">
-              <p className="font-semibold text-slate-900">Sigmastart04 GmbH</p>
-              <p>Zehmeplatz 14, 15230 Frankfurt, Deutschland</p>
+              <p className="font-semibold text-slate-900">K.C. NTOMATA LIMITED</p>
+              <p>Stylianou Lena, 24 Christiana Court, Flat/Office 202, Strovolos, Nicosia 2019, Cyprus</p>
             </address>
             <p className="mt-4 text-slate-700 leading-relaxed max-w-2xl">
-              This site is run by Sigmastart04 GmbH. We publish comparison and information content about bookmakers. We do not take bets or hold player funds.
+              This site is run by K.C. NTOMATA LIMITED. We publish comparison and information content about bookmakers. We do not take bets or hold player funds.
             </p>
           </div>
         </section>

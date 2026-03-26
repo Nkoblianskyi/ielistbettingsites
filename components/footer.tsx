@@ -37,8 +37,8 @@ export function Footer() {
         {/* Company info */}
         <div className="py-6 border-b border-slate-200">
           <p className="text-[10px] font-semibold uppercase tracking-wider text-slate-400 mb-2">Publisher</p>
-          <p className="font-semibold text-slate-800">Sigmastart04 GmbH</p>
-          <p className="text-sm text-slate-500">Zehmeplatz 14, 15230 Frankfurt, Deutschland</p>
+          <p className="font-semibold text-slate-800">K.C. NTOMATA LIMITED</p>
+          <p className="text-sm text-slate-500">Stylianou Lena, 24 Christiana Court, Flat/Office 202, Strovolos, Nicosia 2019, Cyprus</p>
           <p className="mt-1 text-xs text-slate-400">Editorial comparisons. Licensed operators only.</p>
         </div>
 
@@ -55,7 +55,7 @@ export function Footer() {
                 <img src="/ProblemGambling-w.png" alt="ProblemGambling" className="h-8 rounded bg-white px-2 py-1" />
               </Link>
               <Link href="https://gamblingtherapy.org/" className="inline-block">
-                <img src="/gordon.png" alt="Gordon Moody" className="h-8 rounded bg-white px-2 py-1" />
+                <img src="/gordon.png" alt="Gordo n Moody" className="h-8 rounded bg-white px-2 py-1" />
               </Link>
               <Link href="https://gamblersanonymous.org/" className="inline-block">
                 <img src="/anonymos.avif" alt="Gamblers Anonymous" className="h-8 rounded bg-white px-2 py-1" />
